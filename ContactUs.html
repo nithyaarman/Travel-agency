@@ -1,0 +1,132 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    </head>
+    <style>
+        body 
+        {
+            background-color: lightcyan;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 
+        {
+            text-align: center;
+        }
+        form 
+        {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 0 0 10px deeppink;
+        }
+        label 
+        {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input,
+        textarea 
+        {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        button 
+        {
+            background-color: green;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h2{
+            background-blend-mode:color-dodge;
+        }
+        button:hover
+        {
+            background-color: darkturquoise;
+        }
+        .social-list {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+}
+    .social-link 
+    {
+      font-size: 17px;
+      background: white;
+      padding: 10px;
+      border-radius: 50%;
+    }
+        .social-link:is(:hover, :focus) { background: green; }
+        .go-top {
+          position: fixed;
+          bottom: 0;
+          right: 15px;
+          background:green;
+          color:white;
+          font-size: 20px;
+          padding: 10px;
+          border-radius: 6px;
+          visibility: hidden;
+          opacity: 0;
+          transition: 0.15s ease;
+        }
+    </style>
+<body>
+     <footer>
+     <div class="footer-bottom">
+       <li> <ul class="social-list">
+            <a href="https://www.facebook.com/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a> 
+            <a href="https://twitter.com/?lang=en" class="social-link">
+              <ion-icon name="logo-Twitter"></ion-icon>
+            </a>
+            <a href="https://www.whatsapp.com/" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>  
+            <a href="https://www.instagram.com/accounts/login/?hl=en" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.google.com/" class="social-link">
+            <ion-icon name="logo-google"></ion-icon>
+            </a>
+        </ul></li>
+      </div>
+  </footer> 
+    <h1>Contact Us</h1>
+    <center>
+    <marquee><h2>Get in Touch With Us</h2></marquee>
+    <h3>We are here to answer any questions as you have</h3>
+    </center>
+    <form id="contactForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="2" required></textarea>
+        <button type="submit">click here</button>
+    </form>
+    </body><p></p>
+    <center>
+        <h1><strong><i>Our Location TO Contact Us</i></strong></h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d121819.45534677767!2d78.40840744394883!3d17.418601967505232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNithya%20Travel%20Agency!5e0!3m2!1sen!2sin!4v1706444329259!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+</html>
